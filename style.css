@@ -30,11 +30,11 @@ section {
 #karya,
 #tentang {
   background-color: #5b4cffff;
-  border-radius: 50px;
+  border-radius: 10px;
   color: #e5e5e5ff;
-  padding: 15px 32px;
+  padding: 5px 10px;
   text-align: center;
-  text-decoration: none;
+  /* text-decoration: none; */
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
