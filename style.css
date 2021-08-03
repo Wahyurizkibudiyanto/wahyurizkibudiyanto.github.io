@@ -46,3 +46,12 @@ div.card {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+
+footer {
+  position: none;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #e5e5e5ff;
+  text-align: center;
+}
