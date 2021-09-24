@@ -1,0 +1,148 @@
+section {
+  position: relative;
+  background: #f8f9fa;
+  border-radius: 16px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.5s;
+}
+
+section .card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: #fff;
+  border-radius: 16px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.5s;
+}
+
+section .card .imgText,
+section .card .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section .card .imgText .imgBx {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+section .card .imgText .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section .card .imgText h3 {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+  text-align: center;
+  color: #5b4cffff;
+}
+
+section .card .imgText h3 span {
+  font-weight: 400;
+  color: #777;
+  font-size: 0.75rem;
+}
+
+section .dark .card .imgText h2 span {
+  color: #ccc;
+}
+
+section .card .sci {
+  display: flex;
+  margin-top: 15px;
+}
+
+section .card .sci li {
+  list-style: none;
+  text-align: center;
+}
+
+section .card .sci li a {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  color: #5b4cffff;
+  background: #e9f5ff;
+  margin: 0 5px;
+  /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+
+section .card .sci li a .bi {
+  position: relative;
+  z-index: 1000;
+}
+
+section .card .sci li a:hover {
+  color: #fff;
+}
+
+section .card .sci li a:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #5b4cffff;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+section .card .sci li a:hover:before {
+  transform: scale(1);
+}
+
+/* .toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #e9f5ff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+} */
+
+/* section .dark .toggle {
+  background: #404852;
+}
+
+.toggle::before {
+  content: '\f186';
+  font-family: sans-serif;
+  color: #9f4db5;
+}
+
+section .dark .toggle::before {
+  content: '\f185';
+  color: #fff;
+} */

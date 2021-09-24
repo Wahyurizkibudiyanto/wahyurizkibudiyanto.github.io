@@ -3,7 +3,7 @@ body {
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
      
-.footer {
+/* .footer {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -11,4 +11,14 @@ body {
   padding: 1rem;
   background-color: #8d4c4c;
   text-align: center;
+} */
+
+#footer{
+	display: flex;
+	background: rgb(230, 230, 230);
+	color:#ffffff;
+	text-transform: uppercase;
+	position: fixed;
+	bottom: 0px;
+	z-index: 1;
 }
