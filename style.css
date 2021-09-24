@@ -1,48 +1,14 @@
-.jumbotron {
-  padding-top: 5rem;
-  background-color: #cec9ff;
-}
-
 body {
   background-color: #e6eaf7;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
-
-nav {
-  background-color: #e6eaf7;
-}
-
-h1 {
-  color: #5b4cffff;
-}
-p {
-  color: #5b4cffff;
-}
-
-div.card {
-  box-shadow: 0 4px 8px 0 rgba(212, 212, 212, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 20px;
-}
-
-#gb {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-section {
-  padding-top: 5rem;
-}
-
-#kontak,
-#karya,
-#tentang {
-  background-color: #5b4cffff;
-  border-radius: 10px;
-  color: #e5e5e5ff;
-  padding: 5px 10px;
+     
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #8d4c4c;
   text-align: center;
-  /* text-decoration: none; */
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: default;
 }
