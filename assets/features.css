@@ -45,6 +45,7 @@
   height: 3rem;
   font-size: 1.5rem;
   border-radius: .75rem;
+  background-color: #5b4cffff;
 }
 
 .rounded-4 { border-radius: .5rem; }
