@@ -12,6 +12,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="assets/darkmode.css">
+  <link rel="stylesheet" href="assets/api/weather.css">
 
   <!-- Bootstrap core CSS -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -26,25 +27,48 @@
 </head>
 
 <body>
-  <div class="container px-4 py-3" id="featured-3">
+  <div class="container px-4 py-3">
     <h2 class="pb-2 border-bottom" style="color: #2e2e2e;">Home</h2>
-  </div>
+    <div class="px-4 pt-5 text-center">
+      <img class="d-block mx-auto mb-4" src="img/logo1.svg" alt="logo" width="130">
+      <h1 class="display-4 fw-bold">Wahyu Rizki</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Logo Design & Front End
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <a href="apps/about.html" class="btn btn-light btn-lg">About</a>
+          <a href="apps/contact.html" class="btn btn-light btn-lg">Contact</a>
+          <a href="apps/projects.html" class="btn btn-light btn-lg">Project</a>
+          <!-- <a href="#" class="btn btn-light btn-lg" tabindex="-1" role="button">Link</a> -->
+        </div>
 
-  <div class="px-4 pt-5 text-center">
-    <img class="d-block mx-auto mb-4" src="img/logo1.svg" alt="logo" width="130">
-    <h1 class="display-4 fw-bold">Wahyu Rizki</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">
-        Logo Design & Front End
-      </p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <a href="apps/about.html" class="btn btn-light btn-lg">About</a>
-        <a href="apps/contact.html" class="btn btn-light btn-lg">Contact</a>
-        <a href="apps/projects.html" class="btn btn-light btn-lg">Project</a>
-        <!-- <a href="#" class="btn btn-light btn-lg" tabindex="-1" role="button">Link</a> -->
+        <!-- card -->
+        <div class="card text-dark bg-light" style="border-radius: 2rem;">
+          <!-- <div class="card-header">Weather Forecast</div> -->
+          <div class="card-body">
+            <!-- <h5 class="card-title">Light card title</h5> -->
+            <img class="icon-weather" src="" alt="" srcset="" id="weather-icon">
+            <div id="location">Unable to Fetch Weather</div>
+            <div class="desc">No Information Available.</div>
+            <div class="weather">
+              <div class="c">Error</div>
+              <div class="circle"></div>
+              <div class="f">Error</div>
+            </div>
+            <!-- <div class="info">
+              <h4>Sunrise: <span class="sunrise">No Information Available</span></h4>
+              <h4>Sunset: <span class="sunset">No Information Available</span></h4>
+            </div> -->
+          </div>
+        </div>
+        <br>
+        <br>
       </div>
     </div>
   </div>
+
+
 
   <!-- footer -->
   <nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-light">
@@ -70,6 +94,7 @@
 
   <script src="assets/darkmode.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/api/weather.js"></script>
 </body>
 
 </html>
