@@ -1,8 +1,8 @@
 body {
   background-color: #e6eaf7;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-     
+
 /* .footer {
   position: absolute;
   right: 0;
@@ -13,12 +13,12 @@ body {
   text-align: center;
 } */
 
-#footer{
-	display: flex;
-	background: rgb(230, 230, 230);
-	color:#ffffff;
-	text-transform: uppercase;
-	position: fixed;
-	bottom: 0px;
-	z-index: 1;
+#footer {
+  display: flex;
+  background: rgb(230, 230, 230);
+  color: #ffffff;
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
 }
