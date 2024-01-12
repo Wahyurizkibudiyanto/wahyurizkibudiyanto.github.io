@@ -1,19 +1,15 @@
-body {
-  background-color: #e6eaf7;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+:root {
+  --premier: #5b4cffff;
+  --bg: #00000000;
+  --ft: #fff;
 }
 
-/* .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #8d4c4c;
-  text-align: center;
-} */
+body {
+  background-color: #e6eaf7;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 
-#footer {
+nav {
   display: flex;
   background: rgb(230, 230, 230);
   color: #ffffff;
